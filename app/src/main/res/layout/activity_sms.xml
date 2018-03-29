@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:padding="10dp" android:gravity="center_vertical" android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/linearLayout1" xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/paste"
+        android:layout_gravity="right"
+        android:text="@string/viewlocation"
+        android:background="#bf2525"
+        android:textColor="@android:color/white"
+        android:onClick="Paste"/>
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textViewPhoneNo"
+        android:textStyle="normal"
+        android:textSize="16sp"
+        android:text="Enter Phone Number : "/>
+
+    <EditText android:padding="4dp"
+        android:layout_height="40dp"
+        android:layout_width="fill_parent"
+        android:id="@+id/editTextPhoneNo"
+        android:inputType="number"
+        android:layout_marginTop="5dp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textViewSMS" android:textStyle="normal" android:textSize="16sp" android:text="Enter SMS Message : " android:layout_marginTop="5dp"/>
+
+    <EditText android:padding="4dp" android:gravity="top" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/editTextSMS" android:inputType="textMultiLine" android:layout_marginTop="5dp" android:lines="5"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/buttonSend" android:textStyle="bold" android:textSize="20sp" android:text="Send" android:layout_marginTop="10dp" android:textColor="#FFFFFF" android:background="#bf2525"/>
+
+
+</LinearLayout>

@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">TOT_Application</string>
+    <string name="sign_out">Sign out</string>
+    <string name="location_share">Share your location</string>
+    <string name="Chat">Chat</string>
+    <string name="choose_the_station_you_need_the_food">Choose the Station, You need the food</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="enter_the_train_name">Enter the Train Name</string>
+    <string name="enter_the_train_number">Enter the Train Number</string>
+    <string name="enter_your_coach_name">Enter your Coach Name</string>
+    <string name="submit">Submit</string>
+    <string name="enter_your_seat_number">Enter your seat number</string>
+    <string name="choose_your_food_category">Choose your Food Category</string>
+    <string name="app_name1" translatable="false">Location Share</string>
+
+    <string name="share_location">Share</string>
+
+    <string name="copy_location">Copy</string>
+
+    <string name="view_location">View</string>
+
+    <string name="copied">Copied to clipboard</string>
+
+    <string name="clipboard_error">Failed to copy text to clipboard</string>
+
+    <string name="getting_location">Getting location…</string>
+
+    <string name="share_location_via">Share location via</string>
+
+    <string name="view_location_via">View location via</string>
+
+    <string name="turn_on_GPS">Turn on GPS</string>
+
+    <string name="permission_denied">GPS permission denied</string>
+
+    <string name="accuracy">Accuracy</string>
+
+    <string name="latitude">Latitude</string>
+
+    <string name="longitude">Longitude</string>
+
+    <string name="choose_link">Choose a link type</string>
+
+    <string name="googlemaps" translatable="false">Google Maps</string>
+
+    <string name="openstreetmap" translatable="false">OpenStreetMap</string>
+
+    <string name="geouri" translatable="false">GeoURI</string>
+
+    <string name="settings">Settings</string>
+
+    <string name="link_type">Link type</string>
+
+    <string name="pref_link_type_default" translatable="false">https://maps.google.com/?q={0},{1}</string>
+
+    <array name="stations">
+        <item name="chennai_central">Chennai Central</item>
+        <item name="avadi">Avadi</item>
+        <item name="thiruvallur">Thiruvallur</item>
+        <item name="arakonnam">Arakkonam</item>
+        <item name="Tirutani">Tiruttani</item>
+    </array>
+
+    <array name="food_categories">
+        <item name="veg">Veg</item>
+        <item name="non_veg">Non Veg</item>
+        <item name="snacks">Snacks</item>
+    </array>
+
+    <array name="veg">
+        <item name="veg_biryani">Veg Biryani @ only Rs.99/-</item>
+        <item name="veg_fried_rice">Veg Fried RIce @ only Rs.79/-</item>
+    </array>
+
+    <array name="nonveg">
+        <item name="chicken_biryani">Chicken Biryani @ only Rs.179/-</item>
+        <item name="mutton_biryani">Mutton Biryani @ only Rs.199/-</item>
+        <item name="chicken_fried_rice">Chicken Fried RIce @ only Rs.110/-</item>
+        <item name="chicken_65">Chicken 65 @ only Rs.90/-</item>
+    </array>
+
+    <array name="snacks">
+        <item name="potato_chips">Potato chips @ only Rs.49/-</item>
+        <item name="sweet_corn">Sweet corn @ only Rs.30</item>
+        <item name="samosa">Samosa @ only Rs.15/-</item>
+    </array>
+
+    <array name="quantity">
+        <item name="one">1</item>
+        <item name="two">2</item>
+        <item name="three">3</item>
+        <item name="four">4</item>
+        <item name="five">5</item>
+    </array>
+
+
+    <string name="title_activity_food_tab">FoodTabActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="veg">Veg Foods</string>
+    <string name="non_veg">Non Veg Foods</string>
+    <string name="snacks">Snacks</string>
+    <string name="send_button_label">send</string>
+    <string name="verify_location">Verify Location</string>
+    <string name="viewlocation">View Location</string>
+    <string name="choose_what_you_foods_you_want">Choose what you Foods you want</string>
+    <string name="enter_food_name">Enter food name</string>
+    <string name="food_name">Food Name</string>
+    <string name="make_changes">Make Changes</string>
+    <string name="confirm_order">Confirm Order</string>
+    <string name="enter_your_phone">Enter your Phone Number</string>
+
+
+</resources>
