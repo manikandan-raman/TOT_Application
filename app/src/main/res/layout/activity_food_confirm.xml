@@ -4,7 +4,8 @@
     android:layout_height="match_parent"
     android:paddingTop="40dp"
     android:paddingStart="16dp"
-    android:paddingEnd="16dp">
+    android:paddingEnd="16dp"
+    android:background="@drawable/noodles">
 
 
 
@@ -194,7 +195,8 @@
         android:layout_width="0dp"
         android:layout_weight="1"
         android:layout_height="wrap_content"
-        android:textColor="#000"
+        android:background="#e53935"
+        android:textColor="@color/white"
         android:layout_marginStart="16dp" />
 
     <Button
@@ -202,7 +204,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:textColor="#000"
+        android:background="#e53935"
+        android:textColor="@color/white"
         android:layout_gravity=""
         android:layout_marginStart="16dp" />
 

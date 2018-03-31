@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/payment"
     tools:context="com.example.maniy.tot_application.PaymentActivity">
 
     <TextView
@@ -11,28 +12,35 @@
         android:layout_height="wrap_content"
         android:text="Choose your Payment option"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="32dp"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/white"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="16dp"/>
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
         android:text="Pay using Credit / Debit Cards"
-        android:background="#16e77b"
-        android:textColor="#000"
+        android:background="#de0416"
+        android:textColor="@color/white"
         android:onClick="navigateToBaseActivity"
-        android:layout_marginTop="32dp"
-        android:layout_gravity="center"/>
+        android:layout_marginTop="210dp"
+        android:textStyle="italic|bold"
+        android:textSize="20sp"
+        android:layout_gravity="center|center_vertical"/>
 
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
         android:text="Pay using COD"
-        android:background="#16e77b"
-        android:textColor="#000"
+        android:background="#e71619"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/white"
         android:id="@+id/cod"
         android:layout_marginTop="32dp"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center|center_vertical"/>
 </LinearLayout>

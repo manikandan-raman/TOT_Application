@@ -1,24 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.maniy.tot_application.LastActivity">
 
 
     <TextView
         android:id="@+id/tq"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginTop="180dp"
+        android:text="Thank You for Placing the Order, You will receive your order shortly!!!"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="italic|bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Click Here for more details"
+        android:textStyle="bold|italic"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="chat"
+        android:textColor="@color/white"
+        android:background="#e53935"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Copyrights ©2018 all rights reserved"
+        android:textColor="#6930f9"
+        android:layout_marginTop="120dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold|italic"
+        />
 
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>

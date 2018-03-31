@@ -4,22 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
-    android:layout_marginStart="16dp"
-    android:layout_marginEnd="16dp"
     android:layout_height="match_parent"
     android:paddingTop="32dp"
+    android:background="@drawable/foodentry_"
     tools:context="com.example.maniy.tot_application.FoodEnterActivity">
 
 <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="Enter the foods you need!!!"
+    android:layout_gravity="center_horizontal"
+    android:textStyle="italic|bold"
+    android:textColor="#e53935"
     android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:layout_marginStart="95dp"
+        android:layout_marginEnd="0dp"
         android:layout_marginTop="32dp">
 
         <android.support.design.widget.TextInputLayout
@@ -41,8 +45,9 @@
             android:layout_height="wrap_content"
             android:entries="@array/quantity"
             android:id="@+id/s1"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="22dp"/>
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="22dp"
+            />
 
 
     </LinearLayout>
@@ -51,6 +56,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:layout_marginStart="95dp"
+        android:layout_marginEnd="0dp"
         android:layout_marginTop="16dp">
 
 
@@ -72,7 +79,7 @@
             android:layout_height="wrap_content"
             android:entries="@array/quantity"
             android:id="@+id/s2"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="0dp"
             android:layout_marginTop="22dp"/>
 
 
@@ -83,6 +90,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:layout_marginStart="95dp"
+        android:layout_marginEnd="0dp"
         android:layout_marginTop="16dp">
 
         <android.support.design.widget.TextInputLayout
@@ -104,7 +113,7 @@
             android:layout_height="wrap_content"
             android:entries="@array/quantity"
             android:id="@+id/s3"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="0dp"
             android:layout_marginTop="22dp"/>
 
 
@@ -114,7 +123,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/submit"
-        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic"
+        android:background="#fd1a25"
+        android:layout_gravity="right"
+        android:layout_marginEnd="32dp"
         android:layout_marginTop="32dp"
         android:id="@+id/food_submit"/>
 
