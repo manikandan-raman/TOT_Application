@@ -113,7 +113,7 @@ public class UserDetailsActivity extends AppCompatActivity {
                 FirebaseUser user = mFirebaseAuth.getCurrentUser();
                 if (user != null){
                     // signed in
-                    Toast.makeText(getApplicationContext(),"Signed in ",Toast.LENGTH_SHORT).show();
+                  //  Toast.makeText(getApplicationContext(),"Signed in ",Toast.LENGTH_SHORT).show();
                 }else{
                     // signed out, so need to display Sign in options
                     startActivityForResult(

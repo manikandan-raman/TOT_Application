@@ -27,13 +27,15 @@ public class SMSActivity extends AppCompatActivity {
         textSMS = (EditText)findViewById(R.id.editTextSMS);
         chm = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
 
+        textPhoneNo.setText("9840574235");
         Intent i = getIntent();
         sample = i.getStringExtra("b");
 
         buttonSend.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String phoneNo = "9840574235";
+
+                String phoneNo = textPhoneNo.getText().toString();
                 sms = sample;
                 try {
                     SmsManager smsManager = SmsManager.getDefault();
